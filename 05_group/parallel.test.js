@@ -9,6 +9,6 @@ const runMultipleTests = n => {
     });
 };
 
-describe.skip('parallel tests', () => {
+describe.skip:('parallel tests', () => {
   runMultipleTests(100);
 });
